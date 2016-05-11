@@ -13,3 +13,9 @@ class Product(models.Model):
 class DetailedProductImage(models.Model):
     product = models.ForeignKey(Product)
     image = models.ImageField()
+
+class DetailedProductImage2(models.Model):
+    product2 = models.ForeignKey(Product)
+    image2 = models.ImageField()
+
+   #testing

@@ -18,4 +18,4 @@ class DetailedProductImage2(models.Model):
     product2 = models.ForeignKey(Product)
     image2 = models.ImageField()
 
-   #testing
+   #testingjhvghjgkhghdfgdfgsd
